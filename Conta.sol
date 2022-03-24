@@ -38,6 +38,13 @@ contract Conta {
         return Numero1 / Numero2;
     }
 
+    function mod() view public returns (uint) {
+        return Numero1 % Numero2;
+    }
+
+    function exp() view public returns (uint) {
+        return Numero1 ** Numero2;
+    }
     
     
 }
